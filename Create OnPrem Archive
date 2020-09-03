@@ -11,9 +11,9 @@
 <#
 $user = "telisvta"
 
-Enable-RemoteMailbox $user -Archive
+Enable-Mailbox $user -Archive -ArchiveDatabase DE-Herzogenaurach-ADB02
 
-Get-RemoteMailbox $user | Select Name,ArchiveName,ArchiveDomain,ArchiveGuid,ArchiveQuota,ArchiveWarningQuota,ArchiveState,ArchiveStatus
+Get-Mailbox $user | Select Name,ArchiveDatabase
 #>
 
 
