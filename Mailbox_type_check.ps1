@@ -6,11 +6,8 @@
 
 $users = @(
 "info_ind_jp",
-"betriebsrat.hoechstadt@schaeffler.com",
 "REVESRLA",
 "wirtmais",
-"OR-ERL-SMB-ZSD",
-"CR-ELT-8-25_0.01, Veitenstein",
 "saitotka",
 "STIAKRNA",
 "PNACEDVI"
