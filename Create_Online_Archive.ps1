@@ -18,6 +18,7 @@ Get-RemoteMailbox $user | Select Name,ArchiveName,ArchiveDomain,ArchiveGuid,Arch
 
 
 
+
 # --------------------------------------------------------
 # Multiple user
 # --------------------------------------------------------
