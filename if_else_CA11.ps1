@@ -11,6 +11,10 @@ $CA11 = "EXO"
 
     foreach($user in $users){
     
+                  $i++
+            $percentComplete=[System.Convert]::ToInt32($i/$counter*100)
+            Write-Progress -Activity $ActivityString -PercentComplete $percentComplete -CurrentOperation "Processing user: $($user.name)" -Status "Completed: $percentComplete`% ($i/$counter)"
+    
     
 
             get-mailbox -identity $user | ft customattribute11
